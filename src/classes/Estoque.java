@@ -1,5 +1,10 @@
 package classes;
 
+/**
+ * 04/10/18
+ * @author Kátia Marina
+ */
+
 public class Estoque {
 
 	static Produto produto;
@@ -32,8 +37,6 @@ public class Estoque {
 
 	}
 
-	
-	
 	public static int getQuantidade_produto() {
 		return quantidade_produto;
 	}

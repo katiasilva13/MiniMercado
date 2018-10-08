@@ -1,12 +1,17 @@
 package classes;
 
+/**
+ * 04/10/18
+ * @author Kátia Marina
+ */
+
 public class Produto {
 
 	static int codigo_produto;
 	static String tipo_produto;
 	static float valorUnitario;
 
-	public static int getCodigo_produto() {
+	public int getCodigo_produto() {
 		return codigo_produto;
 	}
 
@@ -22,7 +27,7 @@ public class Produto {
 		Produto.tipo_produto = tipo_produto;
 	}
 
-	public static float getValorUnitario() {
+	public float getValorUnitario() {
 		return valorUnitario;
 	}
 
